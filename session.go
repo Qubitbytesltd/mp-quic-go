@@ -9,14 +9,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/project-faster/mp-quic-go/ackhandler"
-	"github.com/project-faster/mp-quic-go/congestion"
-	"github.com/project-faster/mp-quic-go/internal/flowcontrol"
-	"github.com/project-faster/mp-quic-go/internal/handshake"
-	"github.com/project-faster/mp-quic-go/internal/protocol"
-	"github.com/project-faster/mp-quic-go/internal/utils"
-	"github.com/project-faster/mp-quic-go/internal/wire"
-	"github.com/project-faster/mp-quic-go/qerr"
+	"github.com/Qubitbytesltd/mp-quic-go/ackhandler"
+	"github.com/Qubitbytesltd/mp-quic-go/congestion"
+	"github.com/Qubitbytesltd/mp-quic-go/internal/flowcontrol"
+	"github.com/Qubitbytesltd/mp-quic-go/internal/handshake"
+	"github.com/Qubitbytesltd/mp-quic-go/internal/protocol"
+	"github.com/Qubitbytesltd/mp-quic-go/internal/utils"
+	"github.com/Qubitbytesltd/mp-quic-go/internal/wire"
+	"github.com/Qubitbytesltd/mp-quic-go/qerr"
 )
 
 type unpacker interface {
