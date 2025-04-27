@@ -3,12 +3,12 @@ package quic
 import (
 	"time"
 
-	"github.com/project-faster/mp-quic-go/ackhandler"
-	"github.com/project-faster/mp-quic-go/congestion"
-	"github.com/project-faster/mp-quic-go/internal/protocol"
-	"github.com/project-faster/mp-quic-go/internal/utils"
-	"github.com/project-faster/mp-quic-go/internal/wire"
-	"github.com/project-faster/mp-quic-go/qerr"
+	"github.com/Qubitbytesltd/mp-quic-go/ackhandler"
+	"github.com/Qubitbytesltd/mp-quic-go/congestion"
+	"github.com/Qubitbytesltd/mp-quic-go/internal/protocol"
+	"github.com/Qubitbytesltd/mp-quic-go/internal/utils"
+	"github.com/Qubitbytesltd/mp-quic-go/internal/wire"
+	"github.com/Qubitbytesltd/mp-quic-go/qerr"
 )
 
 const (
