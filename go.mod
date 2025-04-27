@@ -1,4 +1,4 @@
-module github.com/project-faster/mp-quic-go
+module github.com/Qubitbytesltd/mp-quic-go
 
 go 1.24
 
