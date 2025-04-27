@@ -1,6 +1,6 @@
 module github.com/project-faster/mp-quic-go
 
-go 1.20
+go 1.24
 
 require (
 	github.com/bifurcation/mint v0.0.0-20170726191115-f1bdafed5eee
